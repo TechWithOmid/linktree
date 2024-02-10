@@ -1,3 +1,49 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl = "http://www.example.com"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "امید محمدی"
+  info = "برنامه نویس پایتون/عشق لینوکس/دانشجوی مهندسی الکترونیک"
+  description	= "صفحه شخصی امید محمدی"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/avatar.jpg"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/techwithomid/"
+[[params.social]]
+  name = "Telegram"
+  icon = "fa-brands fa-telegram fa-2x"
+  weight = 2
+  url = "https://t.me/techwithomid"
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 3
+  url = "https://instagram.com/techwithomid/"
+
+# Menu links
+[[menu.main]]
+  name = "بلاگ"
+  weight = 1
+  url  = "https://techwithomid.ir"
+
