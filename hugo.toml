@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://techwithomid.ir"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
